@@ -1,0 +1,21 @@
+.container-fluid{
+    height: 100vh;
+}
+#nav{
+    height: 600px;
+}
+.font{
+    font-family: 'Dancing Script', cursive;
+}
+
+.color{
+    color: silver;
+}
+
+.nav-link:hover{
+    background-color: orange;
+}
+
+.nav-link.active{
+    background-color: rgb(240, 59, 14);
+}

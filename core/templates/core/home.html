@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block main %}
+    <div class="text-center mt-5">
+        <img src="{% static 'image/pic.jpg' %}" class="img-thumbnail border-success" height="400px" width="400px" alt="ProfilePic">
+    </div>
+
+    <div class="text-warning mx-5 text-justify p-2" style="line-height:2rem;">
+        <h1 class="font">Hello,</h1>
+        <p style="text-indent:100px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <b>Quaerat officiis placeat</b> omnis deleniti rem voluptatem dolorem officia laudantium in nulla dolor quidem quas cupiditate porro exercitationem vel facilis provident cum numquam vero totam, tempora inventore. Nam distinctio consequatur </p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat officiis <b class="text-danger"> placeat omnis deleniti</b> rem voluptatem dolorem officia laudantium in nulla dolor quidem quas cupiditate porro exercitationem vel facilis provident cum numquam vero totam, tempora inventore. Nam distinctio consequatur </p>
+        
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat officiis placeat omnis deleniti rem voluptatem dolorem officia laudantium in nulla dolor quidem quas cupiditate porro exercitationem vel facilis provident cum numquam vero totam, tempora inventore. Nam distinctio consequatur </p>
+    
+    <div class="text-center">
+        <a href="{% url 'contact' %}" class="btn btn-outline-info mx-3">Hire Me</a>
+    </div>
+    
+    </div>
+{% endblock main %}
